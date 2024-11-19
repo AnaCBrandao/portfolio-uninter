@@ -30,6 +30,7 @@ header .titulo{
     color:  var(--primary);
     font-family: 'Arial Black', Times;
     font-size:40px;
+    text-decoration: none;
 }
 
 header nav a{
@@ -42,4 +43,51 @@ header nav a{
 
 header nav a:hover{
     color: var(--secondary);
+}
+
+main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+article{
+    background-color: var(--secondary);
+    border-radius: .3em;
+    width: 80%;
+    opacity: 0.8;
+    padding: 2em;
+    display: flex;
+}
+
+h3 {
+    margin-bottom: 20px;
+    color: var(--cream);
+    font-weight: 900;
+    font-size: 24px;
+}
+
+article .main-text{
+    padding: 20px;
+    color: var(--dark-gray);
+}
+
+article span p{
+    margin-left: 1.3em;
+}
+
+article span{
+    margin: 0 10px;
+}
+
+article p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.profile {
+    width: 400px;
+    border-radius: 0.3em;
 }
