@@ -1,0 +1,45 @@
+:root{
+    --primary: #9515c7;
+    --secondary: #d586f2;
+    --dark-gray:#141414;
+    --cream: #fefaeb;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--dark-gray);
+    font-family: 'Georgia', Times, serif;
+    color:var(--cream);
+}
+ 
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;   
+    margin: 15px;
+}
+ 
+header .titulo{
+    margin-left: 5px;
+    color:  var(--primary);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+}
+
+header nav a{
+    text-decoration:none;
+    margin-right: 20px;
+    color:  var(--cream);
+    font-size: 20px;
+}
+
+
+header nav a:hover{
+    color: var(--secondary);
+}
