@@ -50,7 +50,7 @@ main {
     width: 100%;
     align-items: center;
     justify-content: center;
-    
+    flex-direction: column;
 }
 
 article{
@@ -60,6 +60,7 @@ article{
     opacity: 0.8;
     padding: 2em;
     display: flex;
+    margin-top: 3em;
 }
 
 h3 {
@@ -87,7 +88,65 @@ article p {
     font-size: 20px;
 }
 
-.profile {
-    width: 400px;
-    border-radius: 0.3em;
+.main-text h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+article img {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 2em;
+}
+
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    gap: 2em;
+    width: 80%;
+    justify-content: center;
+}
+
+.galery img {
+    height: 200px;
+    border-radius: 2em;
+}
+
+.project-image {
+    width: 550px;
+    height: 350px;
+}
+
+.project-list li{
+    font-size: 22px;
+    color: var(--dark-gray);
+    font-weight: 700;
+    margin-top: 1.5em;
+}
+
+.project-list a:hover{
+    color: var(--cream);
+}
+
+.project-description {
+    display: flex;
+    padding: 2em;
+}
+
+.tech {
+    margin-left: 2em;
+}
+
+.tech p {
+    margin-bottom: 1em
+}
+
+.tech span {
+    background-color: var(--primary);
+    border-radius: 3em;
+    color: var(--cream);
+    padding: 8px;
 }
