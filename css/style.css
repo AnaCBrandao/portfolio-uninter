@@ -38,6 +38,7 @@ header nav a{
     margin-right: 20px;
     color:  var(--cream);
     font-size: 20px;
+    transition: .3s ease-in-out;
 }
 
 
@@ -60,7 +61,8 @@ article{
     opacity: 0.8;
     padding: 2em;
     display: flex;
-    margin-top: 3em;
+    margin-top: 2em;
+    margin-bottom: 3em;
 }
 
 h3 {
@@ -86,6 +88,7 @@ article span{
 article p {
     margin-bottom: 10px;
     font-size: 20px;
+    line-height: 1.5;
 }
 
 .main-text h4 {
@@ -149,4 +152,61 @@ article img {
     border-radius: 3em;
     color: var(--cream);
     padding: 8px;
+}
+
+.socials {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.socials img {
+    width: 70px;
+    height: 72px;
+    margin: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.contact input, textarea {
+    border: none;
+    background-color: var(--cream);
+    border-radius: .5em;
+    height: 70px;
+    margin-bottom: 2em;
+    padding: 10px;
+}
+
+.contact textarea {
+    height: 100%;
+}
+
+#submit {
+    width: 20%;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 1em;
+    padding: 1em .5em;
+    color: var(--cream);
+    margin: auto;
+    font-size: larger;
+    font-weight: bold;
+    transition: .5s ease-in-out;
+}
+
+#submit:hover {
+    background-color: var(--dark-gray);
+    color: var(--secondary);
+}
+
+.success {
+    color: greenyellow;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: auto;
 }
